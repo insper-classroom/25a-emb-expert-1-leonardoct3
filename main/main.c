@@ -116,7 +116,7 @@ void mic_task() {
             energy /= 50;
             printf("Energia do sinal: %d\n", energy);
         
-            if (energy > 500) { // Limiar ajustável
+            if (energy > 1100) { // Limiar ajustável
                 detectado = 1;
                 printf("Voz detectada!\n");
             }
